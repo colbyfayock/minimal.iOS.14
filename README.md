@@ -1,4 +1,4 @@
-minimal.iOS.9
+minimal.iOS.14
 =============
 
 Free flat and minimal iOS 9 theme for Winterboard with over 500 icons! (full icon list below)
