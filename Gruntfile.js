@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 
                     './lib/mios_functions.jsx',
                     './lib/mios_icons.jsx',
-                    // './lib/icons/*',
+                    './lib/icons/*',
                     './lib/mios_sizes.jsx',
                     './lib/mios_init.jsx'
 
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
             build_files: {
 
                 options: {
-                    app: 'Adobe Photoshop CC 2015',
+                    app: 'Adobe Photoshop 2020',
                     args: [ "compressed" ]
                 },
 
@@ -44,7 +44,7 @@ module.exports = function(grunt) {
             test_files: {
 
                 options: {
-                    app: 'Adobe Photoshop CC 2015',
+                    app: 'Adobe Photoshop 2020',
                     args: [ "test" ]
                 },
 
@@ -56,7 +56,7 @@ module.exports = function(grunt) {
             rebuild_links: {
 
                 options: {
-                    app: 'Adobe Photoshop CC 2015',
+                    app: 'Adobe Photoshop 2020',
                     args: [ "test", "save" ]
                 },
 
@@ -152,7 +152,7 @@ module.exports = function(grunt) {
         });
 
         exec( "find . -name \".DS_Store\" -exec rm -rf {} \\;" );
-        
+
         grunt.log.write( '\nTrying to package deb...\n');
         grunt.log.write( '--\n');
 
